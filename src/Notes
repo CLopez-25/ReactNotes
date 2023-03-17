@@ -42,9 +42,11 @@ ONCE THE TRANSLATE COMPONENT GOT A RESPONSE FROM THE API AND THEN DISPLAYED THE 
         ONCE INSIDE THE PROJECT DIRECTORY, YOU CAN RUN THE FOLLOWING LINE OF CODE:
         npm start
 
-        TO VIEW YOUR PROJECT IN THE BROWSER, YOU CAN OPEN http://localhost:3000 TO VIEW IT IN THE BROWSER.
+        TO VIEW YOUR PROJECT IN THE BROWSER, YOU CAN OPEN localhost:3000 TO VIEW IT IN THE BROWSER.
 
         IF YOU EVER WANT TO STOP THE SERVER, YOU CAN PRESS CTRL + C IN THE TERMINAL.
+------------------------------------------------------------------------------------------------------------------------
+
 
 
  */
