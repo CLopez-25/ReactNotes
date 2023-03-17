@@ -28,5 +28,10 @@ ANY TIME WE UPDATE state, REACT IS GOING TO AUTOMATICALLY RE-RENDER THE COMPONEN
     EX: const [translated, setTranslated] = useState("");
 ------------------------------------------------------------------------------------------------------------------------
              // HOW DID THE TEXT GET TRANSLATED TO ANOTHER LANGUAGE? //
-TWO PIECES OF
+TWO PIECES OF DATA, THE ACTUAL TEXT FROM THE INPUTS AND THE SELECTED LANGUAGE INTO THE TRANSLATE COMPONENT.
+THAT COMPONENT WAS SETUP TO WATCH FOR THOSE TWO VALUES TO CHANGE, AND WHEN THEY DID, IT WAS GOING TO MAKE A REQUEST TO THE GOOGLE TRANSLATE API.
+ONCE THE TRANSLATE COMPONENT GOT A RESPONSE FROM THE API AND THEN DISPLAYED THE RESULT TO THE USER ON THE SCREEN.
+------------------------------------------------------------------------------------------------------------------------
+
+
  */
