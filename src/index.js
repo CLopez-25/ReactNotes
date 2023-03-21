@@ -3,10 +3,14 @@ import React from 'react';                              // React is the library 
 import ReactDOM from 'react-dom/client';                // ReactDOM is the library that knows how to get a component to  show up in the browser
 
 // 2) Get a reference to the div with ID root
-
+const el = document.getElementById('root');            // el is a reference to the div with ID root
 
 // 3) Tell React to take control of that element
+const root = ReactDOM.createRoot(el);                  // root is a reference to the div with ID root
 
 // 4) Create a react component
+function App() {
+    return <h1>Hi there!</h1>
+}
 
 // 5) Show the component on the screen
