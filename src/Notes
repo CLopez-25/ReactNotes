@@ -19,6 +19,7 @@ ANY TIME WE UPDATE state, REACT IS GOING TO AUTOMATICALLY RE-RENDER THE COMPONEN
        1. THE TEXT THAT THE USER WAS TYPING IN THE INPUT FIELD.
        2. THE LANGUAGE THAT THE USER SELECTED FOR TRANSLATION.
        3. THE RESULT OF THE TRANSLATION.
+
    SO WE ARE ABLE TO FIND A SINGLE CALL TO THE useState FUNCTION TO SET UP EACH OF THESE PIECES OF DATA.
 1. THE FIRST CALL TO useState SETS UP state SYSTEM AND SAYS THAT WE'RE GOING TO HAVE SOME KIND OF SELECTED LANGUAGE THAT IS GOING TO CHANGE OVER TIME.
     EX: const [language, setLanguage] = useState("es");
@@ -72,7 +73,7 @@ REACT TREATS BOOLEANS, NULLS, UNDEFINED, AND ARRAYS IN A SLIGHTLY UNEXPECTED WAY
 THE ABSOLUTE GOTCHA IS IF YOU'RE GOING TO TRY TO PRINT OUT AN OBJECT, REACT WILL THROW OUT AN ERROR AND NOTHING WILL BE SHOWN ON THE SCREEN.
 ------------------------------------------------------------------------------------------------------------------------
               // SHORTHAND JS EXPRESSIONS //
-EXAMPLE FOR WRITING OUT LOCAL TIME:
+    EXAMPLE FOR WRITING OUT LOCAL TIME:
 function App() {
 const date = new Date();
 const time = date.toLocaleTimeString();           // THIS IS A LOT OF CODE TO WRITE OUT THE TIME. IT CAN BE DONE WITHIN THE CURLY BRACES.
@@ -80,7 +81,7 @@ const time = date.toLocaleTimeString();           // THIS IS A LOT OF CODE TO WR
 return <h1>{time}</h1>;
 }
 
-EXAMPLE FOR WRITING OUT LOCAL TIME(SHORTHAND):
+    EXAMPLE FOR WRITING OUT LOCAL TIME(SHORTHAND):
 function App() {
 return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING TWO VARIABLES AHEAD OF TIME, YOU CAN ADD A NEW DATE OBJECT AND CALL THE ToLocaleTimeString METHOD ON IT.
 }
@@ -94,6 +95,7 @@ return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING 
     }
 ANSWER: A div with the text Blue inside of it.
 
+
     2. Imagine you're working on the following component:
     function App() {
       const age = 23;
@@ -102,6 +104,7 @@ ANSWER: A div with the text Blue inside of it.
     }
     You want to show the age variable inside of the h5 element.  How would you update the JSX to do so?
 ANSWER: <h5>{age}</h5>
+
 
     3. What would the following component display on the screen?
     function App() {

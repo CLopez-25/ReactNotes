@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(el);                  // root is a reference to
 // }                                                   // THIS JUST CREATES AN INSTRUCTION FOR REACT, TELLING IT TO MAKE AN ELEMENT. WE HAVE TO RETURN IT FROM A COMPONENT IN ORDER FOR REACT TO USE IT.
 function App() {
     let message = 'Bye there!'
-    if (Math.random() > 0.5) {
+    if (Math.random() > 0.5) {                      // Math.random() returns a random number between 0 and 1. If the number is greater than 0.5, the message will be 'Hi there!'
         message = 'Hi there!';
     }
     return <h1>{message}</h1>                       // JSX is a mix of JS and HTML. We can use JS expressions inside JSX by wrapping them in curly braces. This is called 'interpolation
