@@ -84,6 +84,32 @@ EXAMPLE FOR WRITING OUT LOCAL TIME(SHORTHAND):
 function App() {
 return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING TWO VARIABLES AHEAD OF TIME, YOU CAN ADD A NEW DATE OBJECT AND CALL THE ToLocaleTimeString METHOD ON IT.
 }
+-------------------------------------------------------------------------------------------------------------------------
+                // Quiz 1 Questions //
+    1. What would the following component show on the screen?
+    function App() {
+      const favoriteColor = 'Blue';
+
+      return <div>{favoriteColor}</div>
+    }
+ANSWER: A div with the text Blue inside of it.
+
+    2. Imagine you're working on the following component:
+    function App() {
+      const age = 23;
+
+      return <h5></h5>;
+    }
+    You want to show the age variable inside of the h5 element.  How would you update the JSX to do so?
+ANSWER: <h5>{age}</h5>
+
+    3. What would the following component display on the screen?
+    function App() {
+      const person = { name: 'Samantha' };
+
+      return <div>{person}</div>;
+    }
+ANSWER: Nothing, React would throw an error because you Aare trying to show an object on the screen.
 
 
  */
