@@ -65,12 +65,12 @@ IN FACT, ONLY ABOUT 5 OF THEM ARE ACTUALLY REQUIRED TO RUN A REACT APPLICATION:
 5.node_modules -  FOLDER THAT CONTAINS ALL OF OUR DEPENDENCIES.
 
 WHEN THE REACT PROJECT IS CREATED WE GET A LOT OF ADDED FILES ON TOP JUST AS KIND OF A CONVENIENCE TO MAKE DEVELOPING OUR APP A BIT EASIER IN THE FUTURE.
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
               // PRINTING OUT JAVASCRIPT VARIABLES IN JSX //
 WE MOST OFTEN USE CURLY BRACES TO SHOW STRINGS OR NUMBERS JUST BECAUSE THOSE ARE THE MOST COMMON DATA TYPES THAT WE WANT TO DISPLAY TO USERS.
 REACT TREATS BOOLEANS, NULLS, UNDEFINED, AND ARRAYS IN A SLIGHTLY UNEXPECTED WAY.
 THE ABSOLUTE GOTCHA IS IF YOU'RE GOING TO TRY TO PRINT OUT AN OBJECT, REACT WILL THROW OUT AN ERROR AND NOTHING WILL BE SHOWN ON THE SCREEN.
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
               // SHORTHAND JS EXPRESSIONS //
 EXAMPLE FOR WRITING OUT LOCAL TIME:
 function App() {
@@ -84,7 +84,7 @@ EXAMPLE FOR WRITING OUT LOCAL TIME(SHORTHAND):
 function App() {
 return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING TWO VARIABLES AHEAD OF TIME, YOU CAN ADD A NEW DATE OBJECT AND CALL THE ToLocaleTimeString METHOD ON IT.
 }
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
                 // Quiz 1 Questions //
     1. What would the following component show on the screen?
     function App() {
@@ -110,6 +110,25 @@ ANSWER: <h5>{age}</h5>
       return <div>{person}</div>;
     }
 ANSWER: Nothing, React would throw an error because you Aare trying to show an object on the screen.
+------------------------------------------------------------------------------------------------------------------------
+               // Exercise Question 1 //
+   Add your name to the  empty string on 4th line.
+   Print the name variable in the h1 element.
 
+   import React from 'react';
+
+   function App() {
+     const name = 'Cesar';
+
+     return (
+       <div>
+         My name is:
+         <h1>{name}</h1>
+       </div>
+     );
+   }
+
+   export default App;
+------------------------------------------------------------------------------------------------------------------------
 
  */
