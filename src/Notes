@@ -82,7 +82,7 @@ return <h1>{time}</h1>;
 
 EXAMPLE FOR WRITING OUT LOCAL TIME(SHORTHAND):
 function App() {
-return >h1>{}</h1>;
+return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING TWO VARIABLES AHEAD OF TIME, YOU CAN ADD A NEW DATE OBJECT AND CALL THE ToLocaleTimeString METHOD ON IT.
 }
 
 
