@@ -158,4 +158,21 @@ NAMES/VALUES OF ATTRIBUTES THAT YOU PROVIDE TO ELEMENTS IN HTML ARE SLIGHTLY DIF
 <form novalidate />                   <form noValidate/>
      IN CASE YOU FORGET TO CAMELCASE, REACT WILL GIVE YOU HINTS IN THE CONSOLE WHEN YOU RUN YOUR APP.
 
+2. HTML                                 JSX Equivalent
+<input maxlength="5" />               <input maxLength={5}/>
+<meter optimum="50" />                 <meter optimum={50}/>
+
+3. HTML                                 JSX Equivalent
+<input spellcheck="true" />          <input spellCheck/>
+<input spellcheck="false" />         <input spellCheck={false}/>
+
+4. HTML                                 JSX Equivalent
+<div class="divider" />            <div className="divider"/>
+<li class="item" />                <li className="item"/>
+
+5. HTML                                                        JSX Equivalent
+<a                                                             <div
+style="text-decoration:'none; padding:'5px';"                   style={{ textDecoration:'none',padding:'5px'}}
+/>                                                              />
+
  */
