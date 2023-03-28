@@ -86,7 +86,7 @@ function App() {
 return >h1>{new Date().toLocaleTimeString()}</h1>;     // RATHER THAN DECLARING TWO VARIABLES AHEAD OF TIME, YOU CAN ADD A NEW DATE OBJECT AND CALL THE ToLocaleTimeString METHOD ON IT.
 }
 ------------------------------------------------------------------------------------------------------------------------
-                // Quiz 1 Questions //
+                // Quiz 2 Questions //
     1. What would the following component show on the screen?
     function App() {
       const favoriteColor = 'Blue';
@@ -174,5 +174,41 @@ NAMES/VALUES OF ATTRIBUTES THAT YOU PROVIDE TO ELEMENTS IN HTML ARE SLIGHTLY DIF
 <a                                                             <div
 style="text-decoration:'none; padding:'5px';"                   style={{ textDecoration:'none',padding:'5px'}}
 />                                                              />
+------------------------------------------------------------------------------------------------------------------------
+                    // QUIZ 3 //
+    1. What would the following component show on the screen?
+       function App() {
+         const location = 'New York';
+         const weather = 'cloudy';
+
+         return (
+           <div>
+             <h3>The weather in {location} is {weather}</h3>
+           </div>
+         );
+       }
+ANSWER: The weather in New York is cloudy
+
+    After writing out the following component, you notice a small warning in your browser's console.
+    2. What does the warning probably say?
+       function App() {
+         return (
+           <div>
+             <input readonly />
+           </div>
+         );
+       }
+ANSWER: Warning: Invalid DOM property 'readonly'. Did you mean 'readOnly'?
+
+    3. Would the following component cause a warning at the console?
+       This is a tricky question - try showing this component yourself and checking your browser console!
+       function App() {
+         return (
+           <input placeholder="hi there" />
+         );
+       }
+ANSWER: No, it would not cause a warning.
+------------------------------------------------------------------------------------------------------------------------
+
 
  */
