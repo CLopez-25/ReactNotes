@@ -143,6 +143,13 @@ Content we want this          return <h1>Hi there!
 component to show                      My name is {name} and my age is {age}!
                                      </h1>
                              }
-
+------------------------------------------------------------------------------------------------------------------------
+                  // Converting HTML to JSX //
+NAMES/VALUES OF ATTRIBUTES THAT YOU PROVIDE TO ELEMENTS IN HTML ARE SLIGHTLY DIFFERENT WHEN WRITING JSX.
+1. ALL PROP NAMES FOLLOW camelCase CONVENTION.
+2. NUMBER ATTRIBUTES USE CURLY BRACES.
+3. BOOLEAN 'TRUE' CAN BE WRITTEN WITH JUST THE PROPERTY NAME. 'FALSE' SHOULD BE WRITTEN WITH CURLY BRACES.
+4. THE 'class' ATTRIBUTE IS WRITTEN AS 'className' IN JSX.
+5. IN-LINE STYLES ARE PROVIDED AS OBJECTS.
 
  */
