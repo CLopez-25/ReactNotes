@@ -209,6 +209,23 @@ ANSWER: Warning: Invalid DOM property 'readonly'. Did you mean 'readOnly'?
        }
 ANSWER: No, it would not cause a warning.
 ------------------------------------------------------------------------------------------------------------------------
+         // JSX CONVERSION PRACTICE //
 
+        import React from 'react';
 
+        function App() {
+          return (
+            <div className="wrapper">
+              <textarea
+                readOnly
+                maxLength={3}
+                spellCheck
+                style={{backgroundColor: 'gray'}}
+              />
+            </div>
+          );
+        }
+
+        export default App;
+------------------------------------------------------------------------------------------------------------------------
  */
