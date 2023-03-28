@@ -144,12 +144,18 @@ component to show                      My name is {name} and my age is {age}!
                                      </h1>
                              }
 ------------------------------------------------------------------------------------------------------------------------
-                  // Converting HTML to JSX //
+                  // Converting HTML to JSX 5 RULES //
 NAMES/VALUES OF ATTRIBUTES THAT YOU PROVIDE TO ELEMENTS IN HTML ARE SLIGHTLY DIFFERENT WHEN WRITING JSX.
 1. ALL PROP NAMES FOLLOW camelCase CONVENTION.
 2. NUMBER ATTRIBUTES USE CURLY BRACES.
 3. BOOLEAN 'TRUE' CAN BE WRITTEN WITH JUST THE PROPERTY NAME. 'FALSE' SHOULD BE WRITTEN WITH CURLY BRACES.
 4. THE 'class' ATTRIBUTE IS WRITTEN AS 'className' IN JSX.
 5. IN-LINE STYLES ARE PROVIDED AS OBJECTS.
+
+1. HTML                                 JSX Equivalent
+<input maxlength="5" />               <input maxLength={5}/>
+<form autocapitalize />               <form autoCapitalize/>
+<form novalidate />                   <form noValidate/>
+     IN CASE YOU FORGET TO CAMELCASE, REACT WILL GIVE YOU HINTS IN THE CONSOLE WHEN YOU RUN YOUR APP.
 
  */
