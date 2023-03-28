@@ -133,5 +133,16 @@ ANSWER: Nothing, React would throw an error because you Aare trying to show an o
 
    export default App;
 ------------------------------------------------------------------------------------------------------------------------
+                    //Component Layout //
+
+                            function App() {
+Code to compute values        const name = 'Cesar';
+we want to show in our JSX    const age = 27;
+
+Content we want this          return <h1>Hi there!
+component to show                      My name is {name} and my age is {age}!
+                                     </h1>
+                             }
+
 
  */
