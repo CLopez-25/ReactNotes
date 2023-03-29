@@ -245,5 +245,11 @@ CODE TO CREATE A COMPONENT AND THAT'S IT.             WILL IMPORT REACT AND REAC
 4. IMPORT THE COMPONENT INTO ANOTHER FILE.                  -------> import App from './App';
 5. USE THE COMPONENT.                                   -------> <App />
 
+------------------------------------------------------------------------------------------------------------------------
+            // IMPORTING AND EXPORTING NOTES //
+EX. import App from './App';          -->          MEANS WE ARE IMPORTING A FILE THAT WE CREATED
+
+EX. import React from 'react';        -->          MEANS WE ARE IMPORTING A PACKAGE
+
 
  */
