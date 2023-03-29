@@ -239,7 +239,11 @@ CODE TO CREATE A COMPONENT AND THAT'S IT.             WILL IMPORT REACT AND REAC
                                                       SHOW THE APP COMPONENT
 ------------------------------------------------------------------------------------------------------------------------
            // CREATING A COMPONENT //
-1. CREATE A NEW FILE (BY CONVENTION THE FILE SHOULD START WITH A CAPITAL LETTER).
-2.
+1. CREATE A NEW FILE (BY CONVENTION THE FILE SHOULD START WITH A CAPITAL LETTER).-->  App.js
+2. MAKE YOUR COMPONENT. SHOULD BE A FUNCTION THAT RETURNS JSX.   -------> function App() { return <h1>Hello World</h1> }
+3. EXPORT YOUR COMPONENT TO THE BOTTOM OF THE FILE.           -------> export default App;
+4. IMPORT THE COMPONENT INTO ANOTHER FILE.                  -------> import App from './App';
+5. USE THE COMPONENT.                                   -------> <App />
+
 
  */
