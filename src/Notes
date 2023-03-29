@@ -246,10 +246,23 @@ CODE TO CREATE A COMPONENT AND THAT'S IT.             WILL IMPORT REACT AND REAC
 5. USE THE COMPONENT.                                   -------> <App />
 
 ------------------------------------------------------------------------------------------------------------------------
-            // IMPORTING AND EXPORTING NOTES //
+            // IMPORTING AND EXPORTING NOTES (will keep adding to this) //
 EX. import App from './App';          -->          MEANS WE ARE IMPORTING A FILE THAT WE CREATED
 
 EX. import React from 'react';        -->          MEANS WE ARE IMPORTING A PACKAGE
 
+
+------------------------------------------------------------------------------------------------------------------------
+                     // Quiz 4 //
+    1. Imagine you have two files in a single directory. One is called App.js, the other is called index.js.
+       Here's the contents of the App.js file:
+       function App() {
+         return <div>Clock Time</div>;
+       }
+       export default App;
+ANSWER: import App from './App';
+
+
+    2.
 
  */
