@@ -273,6 +273,10 @@ ANSWER: import App from './App';
        How would you import both the variables username and email into the index.js file?
 ANSWER: import { username, email } from './user';
 ------------------------------------------------------------------------------------------------------------------------
-
+                 // COMMUNICATING WITH PROPS //
+1. ADD ATTRIBUTES TO AS JSX ELEMENT.
+2. REACT COLLECTS THE ATTRIBUTES AND PUTS THEM INTO AN OBJECT CALLED PROPS.
+3. PROPS OBJECT SHOWS UP AS THE FIRST ARGUMENT TO THE CHILD COMPONENT FUNCTION.
+4. WE USE THE PROPS HOWEVER WE WISH.
 
  */
